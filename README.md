@@ -8,6 +8,7 @@ Problem: Reporting systems usually have very complex queries to render reports. 
 In order to apply the Report there needs to be a number of items in place.
 
 1: The report needs to know which aggregations to apply to the pre-calculated data
+
 2:  There needs to be a way to place summarized data into a separate location.
 
 Workflow:  User creates a summarized dataset with metrics.  These metrics may be as simple as this example.
