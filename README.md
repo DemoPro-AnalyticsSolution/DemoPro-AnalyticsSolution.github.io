@@ -14,7 +14,7 @@ Workflow:  User creates a summarized dataset with metrics.  These metrics may be
 Imagine we have a store. We want to do metrics on our users buying behavior.  We want to know how well we did per product and we have sales data and meta-data about our products.
 ---
 Let us say that we have an Items table:
-Item ID, Item Name, Item Description, Purchased Amount, Inventory Count, Repurchase Quantity, Lower Limit
+Item ID | Item Name | Item Description | Purchased Amount | Inventory Count | Repurchase Quantity | Lower Limit
 ---
 Purchases Table could look like this:
 Purchase ID, Customer ID, Created Date, Invoiced Amount, Total (As calculated from Sales) 
