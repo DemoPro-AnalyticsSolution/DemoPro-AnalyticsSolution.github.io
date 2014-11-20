@@ -17,7 +17,7 @@ Imagine we have a store. We want to do metrics on our users buying behavior.  We
 Let us say that we have an Items table:
 
 Item ID | Item Name | Item Description | Purchased Amount | Inventory Count | Repurchase Quantity | Lower Limit
-
+--- | --- | --- | --- | --- | --- | ---
 Purchases Table could look like this:
 
 Purchase ID, Customer ID, Created Date, Invoiced Amount, Total (As calculated from Sales) 
