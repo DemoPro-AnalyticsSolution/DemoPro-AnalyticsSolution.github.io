@@ -20,19 +20,22 @@ Item ID | Item Name | Item Description | Purchased Amount | Inventory Count | Re
 --- | --- | --- | --- | --- | --- | ---
 Purchases Table could look like this:
 
-Purchase ID, Customer ID, Created Date, Invoiced Amount, Total (As calculated from Sales) 
-
+Purchase ID | Customer ID | Created Date | Invoiced Amount | Total (As calculated from Sales) 
+--- | --- | --- | --- | --- 
 Let us say we have customers:
 
-Customer ID, First Name, Last Name, Address
+Customer ID | First Name | Last Name | Address
+--- | --- | --- | --- 
 
 The following table represents sales of items:
 
-Purchase Item ID, Purchase ID, Item ID, Sold Price, Tax
+Purchase Item ID | Purchase ID | Item ID | Sold Price | Tax
+--- | --- | --- | --- | --- 
 
 As you can see, just 4 relations get pretty complex.  In order to do analytics it may be helpful to see data like this.
 
-Customer Name, Item Name, Sold Price, Created Date
+Customer Name | Item Name | Sold Price | Created Date
+--- | --- | --- | --- 
 
 In order to produce this type of relation, the following needs to be done in SQL.
 ```sql
